@@ -1,2 +1,1 @@
-flask
-ginicorn
+web: gunicorn run:app
