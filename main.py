@@ -54,4 +54,3 @@ def post_edit(id):
         return render_template('edit_post.html', post=post)
 
 
-app.run()
