@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add post</title>
+</head>
+<body>
+    <form method="POST" action="{{ url_for('post_add') }}">
+        <input name="photo_url" type="text">
+        <input name="name" type="text">
+        <textarea name="body"></textarea>
+        <input type="submit" value="create">
+
+    </form>
+</body>
+</html>
