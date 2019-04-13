@@ -20,7 +20,7 @@ post_store.add(dummy_posts[1])
 @app.route('/')
 def home():
 
-    return render_template('index.html', posts = post_store.get_all())
+    return render_template('index.html', posts=post_store.get_all())
 
 @app.route('/post/add', methods=['GET','POST'])
 def post_add():
